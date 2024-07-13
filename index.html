@@ -1,219 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head> 
-        <title> 
-            Retarded
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel ="stylesheet" href="retard2.css">  
-        <script type="text/javascript" src="retard2.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    
-    </head> 
-    <body class="body">
-        <!-- this is the first page-->
-     
-     
-        <div id="first">
-            
-            <img id="fullPic" src="https://lh3.googleusercontent.com/pw/AP1GczOgZuBSVdg-1hpBdA2KuK0qXViHKEigujr5b3ZqrlIlOByWFPRL5CGOiyeGPLqv6UVkMCNg9Ly8ccTO4aredvB-YUIG6pO38CbKxBcWtF6dHAHuZw=w2400">
-            <img style="display: none;" id="fullPic2" src="https://lh3.googleusercontent.com/pw/AP1GczNx9oRev7fvbyZG6jYr3VDHP9LbgKULtzJCt-6TucTUCS_KUQ5GDs0_arbpuGPiARsAHo7lImM1WjgQShawWIB10w8MUWvAfMk4Cq-GYV5-LkEQsQ=w2400">
 
-            <img id="frontPic"  src="https://lh3.googleusercontent.com/pw/AP1GczOJQ6noaeWmZePVrTkkWbqcnzlbt3S61HSEzkDiCyig9ErKjyq2WeOaRSXLzD_fv5_rewibEYGGMkebJhBiuwRlcUYd-MPe9Y-WiWxTcum7a3gf5g=w2400">
-            <img id="applePic1" src="https://lh3.googleusercontent.com/pw/AP1GczO5lfOLRESbAResjmL57n_FY5-zDx5iSW9lkkfEWKjHcawcNokBhjvx81ThHdKZRXmRSafbjoizYDwcuFVifXvUoBNBli2hGnQ2HQeNpItiE6rx1g=w2400">
-            <img style="display: none;"id="applePic2" src="https://lh3.googleusercontent.com/pw/AP1GczPud4T8BxciFN_M8cCTRj5EHc8WU6ugXIS7tpMJ6nwXA3E0G4qgL6NTPzsiwFMVTUD-qMZf_g-ddRgurVsmPW8aMcm8rEi6dO3DPWc6y-Lv24LCdg=w2400">
+<head>
+    <title>
+        Retarded
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="retard.css">
+    <script type="text/javascript" src="retard.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
-            <img id="finalpic" src="https://lh3.googleusercontent.com/pw/AP1GczNiyLXal8_b_RJhLpvttGo5IbT9f-0YcvA1K6ZNrFAW3QrjnFpKip3oy9Yo70nKBsuBwWhdIPvex-ZZ8JDwD2AprWRLzvBbit_tZLZIOa9b957WlA=w2400">
-           
-            
-            <h1 id="mainHeader" >ARE YOU RETARDED?</h1>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
+    <style>
+        /* multiple screen functionalities */
+        @media (min-width: 992px) {
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="15b27f3b-cbfd-927a-2e1f-664fbeab03e0"] {
+                -webkit-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="d19b525e-cfde-c861-8988-333123e255b4"] {
+                -webkit-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="ed45d1cd-65e1-ed68-c070-bbe5738c2140"] {
+                -webkit-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+        }
+
+        @media (max-width: 991px) and (min-width:768px) {
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="15b27f3b-cbfd-927a-2e1f-664fbeab03e0"] {
+                -webkit-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="d19b525e-cfde-c861-8988-333123e255b4"] {
+                -webkit-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="ed45d1cd-65e1-ed68-c070-bbe5738c2140"] {
+                -webkit-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+        }
+
+        @media (max-width: 767px) and (min-width:480px) {
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="d19b525e-cfde-c861-8988-333123e255b4"] {
+                -webkit-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+        }
+
+        @media (max-width: 479px) {
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="15b27f3b-cbfd-927a-2e1f-664fbeab03e0"] {
+                -webkit-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 120px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="d19b525e-cfde-c861-8988-333123e255b4"] {
+                -webkit-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+        }
+    </style>
+</head>
+
+<body class="body">
+    <!-- this is the first page-->
+
+    <div id="first">
+
+        <img id="fullPic"
+            src="https://lh3.googleusercontent.com/pw/AP1GczOgZuBSVdg-1hpBdA2KuK0qXViHKEigujr5b3ZqrlIlOByWFPRL5CGOiyeGPLqv6UVkMCNg9Ly8ccTO4aredvB-YUIG6pO38CbKxBcWtF6dHAHuZw=w2400">
+        <img style="display: none;" id="fullPic2"
+            src="https://lh3.googleusercontent.com/pw/AP1GczNx9oRev7fvbyZG6jYr3VDHP9LbgKULtzJCt-6TucTUCS_KUQ5GDs0_arbpuGPiARsAHo7lImM1WjgQShawWIB10w8MUWvAfMk4Cq-GYV5-LkEQsQ=w2400">
+
+        <img id="frontPic"
+            src="https://lh3.googleusercontent.com/pw/AP1GczOJQ6noaeWmZePVrTkkWbqcnzlbt3S61HSEzkDiCyig9ErKjyq2WeOaRSXLzD_fv5_rewibEYGGMkebJhBiuwRlcUYd-MPe9Y-WiWxTcum7a3gf5g=w2400">
+        <img id="applePic1"
+            src="https://lh3.googleusercontent.com/pw/AP1GczO5lfOLRESbAResjmL57n_FY5-zDx5iSW9lkkfEWKjHcawcNokBhjvx81ThHdKZRXmRSafbjoizYDwcuFVifXvUoBNBli2hGnQ2HQeNpItiE6rx1g=w2400">
+        <img style="display: none;" id="applePic2"
+            src="https://lh3.googleusercontent.com/pw/AP1GczPud4T8BxciFN_M8cCTRj5EHc8WU6ugXIS7tpMJ6nwXA3E0G4qgL6NTPzsiwFMVTUD-qMZf_g-ddRgurVsmPW8aMcm8rEi6dO3DPWc6y-Lv24LCdg=w2400">
+
+        <img id="finalpic"
+            src="https://lh3.googleusercontent.com/pw/AP1GczNiyLXal8_b_RJhLpvttGo5IbT9f-0YcvA1K6ZNrFAW3QrjnFpKip3oy9Yo70nKBsuBwWhdIPvex-ZZ8JDwD2AprWRLzvBbit_tZLZIOa9b957WlA=w2400">
+
+
+        <h1 id="mainHeader">ARE YOU RETARDED?</h1>
         <div id="buttons">
             <button class="shake-element" onclick="functionYes()">YES</button>
-            <button class="shake-element"  onclick="functionYes()">NO</button>
-            <button class="shake-element"  id="whiteBackground" onclick="functionEx()">EXTREMELY</button>
-        </div> 
-            
+            <button class="shake-element" onclick="functionYes()">NO</button>
+            <button class="shake-element" id="whiteBackground" onclick="functionEx()">EXTREMELY</button>
         </div>
 
-        
-     
-        <!--this is the second page-->
-        <div id="page1" >
-            <div id = "topBar">
-                
-                <img class="shake-element" id="logoInBox" src="https://lh3.googleusercontent.com/pw/AP1GczNM7qw59TLg6UgX6QPWlCQwELUnAjeWr2sEMhVeZCp_eJecvGZsG4N4bj0KfhA4Yqq7UECMWSN8E_IgdKt9J8U3SnfZhd9_VV8sg9rTv8-NJIb9bw=w2400" >
-                <div class="shake-element" id="textAndLogos">
-                    <p  style="font-size: 21px;" id="comeGetText">come get retarded</p>
-                    <a  id="logos1" href="https://t.me/retardSolana" target ="_blank"><img src =https://lh3.googleusercontent.com/pw/AP1GczOh2PoaN-s5sOz4taKlQiHp0doxHNXuoyLgQ-HNT1UMzBjPoUqbKAZEDGPiMN2jBVwTb3d9gr_fL38lV8EqEyyIhplTeUs-iq6HhXXbbZbASfL1ow=w2400 width = "57" height = "57">  </a>
-                
-                </div>
-                <a class="shake-element" id="logos2" href="https://x.com/retardcoinonsol" target ="_blank"><img src =https://lh3.googleusercontent.com/pw/AP1GczOVg_WgJkrCr7FPr3ORb73exP7sMsXrMe26_0gBIJy7_Q3YG2uoNAnyZG_gO7Uczp03pPLl21G7IeNNP2Bpiqq2yLtxJyf4LXrF8MbFcQwFou9s2Q=w2400 width = "57" height = "57">  </a>
-         
-            </div>
-            <img class="shake-element" id="centerLogo" src="https://lh3.googleusercontent.com/pw/AP1GczOK6HZ3DagVXpazDaJsK8SQaiYoMJ6LKna59YOCBjB92Aaj6Z4qVrWA5WBPY3j3vkf-yLr6W5Suzswa1mlmalgxG-Fk7nk2regs_yNxNbNDWHYvDg=w2400" >
-      
-            
-    
-        </div>
-        
-           <!--this is the scrolling text-->
-           <div id="list1" style="display: none;" class="news-ticker">
-            <div class="ticker-container" id="tickerContainer">
-                <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <!-- Repeat words/phrases as needed to achieve continuous effect -->
-            </div>
-        </div>
+    </div>
 
 
-        <div id="write" style="display: none;">
-            <h1 id="about" class="animate-jump">ABOUT DE RETARDS</h1>
-            <p id="aboutunder" class="animate-jump">(based + true story)  </p>
-          
-            <div class="image1container">
-                <div id="text1">
-                    <p class="animate-jump" style="margin-left: 50px;">we da solana crypto degenerates (rEtards) r the outcasts of society </p>
-                    <p class="animate-jump" style="margin-left: 50px;">society laughs at us for choosin’ retarded internet coins over fiat (fake) moneys</p>
-                </div>
-                <img id="guyoncomputer" src="https://lh3.googleusercontent.com/pw/AP1GczPkyTG8rVTudAJyV4DSQGyPuHdGvd7UFCpBrqr2F9Bqf9-h0WxKYLGUFGcdiNBkxHKCMw_uSftRc4dKjKzMXzcEX61yelUHf7lP_XDJctyOidl4Ww=w2400">
+
+    <!--this is the second page-->
+    <div id="page1">
+        <div id="topBar">
+
+            <img class="shake-element" id="logoInBox"
+                src="https://lh3.googleusercontent.com/pw/AP1GczNM7qw59TLg6UgX6QPWlCQwELUnAjeWr2sEMhVeZCp_eJecvGZsG4N4bj0KfhA4Yqq7UECMWSN8E_IgdKt9J8U3SnfZhd9_VV8sg9rTv8-NJIb9bw=w2400">
+            <div class="shake-element" id="textAndLogos">
+                <p style="font-size: 1.1rem; color: #f90;" id="comeGetText">come get retarded</p>
+                <a id="logos1" href="https://t.me/retardSolana" target="_blank"><img
+                        src=https://lh3.googleusercontent.com/pw/AP1GczOh2PoaN-s5sOz4taKlQiHp0doxHNXuoyLgQ-HNT1UMzBjPoUqbKAZEDGPiMN2jBVwTb3d9gr_fL38lV8EqEyyIhplTeUs-iq6HhXXbbZbASfL1ow=w2400
+                        class="responsive-image"> </a>
+
             </div>
-            <h1 class="animate-jump" style="font-size: 68px; margin-top: -10px;">THEY CALL US <br>RETARDS</h1>
-            <div class=image2container>
-                <img id="freedom" src="https://lh3.googleusercontent.com/pw/AP1GczP_yYvfOEpWhlkhRopDxmeVAFhjvajETvQzwiIWUccmYalhDHqdfDQC3HTXvJMtLdM2E1rG4E1ICUMzGqGyvawJ6Me10qLiSHGaAblV3bBxhgXj1g=w2400">
-                <div id="text2">
-                    <p class="animate-jump" style="margin-top: 200px;">But we dOn't care what they think. <br><br>
+            <a class="shake-element" id="logos2" href="https://x.com/retardcoinonsol" target="_blank"><img
+                    src=https://lh3.googleusercontent.com/pw/AP1GczOVg_WgJkrCr7FPr3ORb73exP7sMsXrMe26_0gBIJy7_Q3YG2uoNAnyZG_gO7Uczp03pPLl21G7IeNNP2Bpiqq2yLtxJyf4LXrF8MbFcQwFou9s2Q=w2400
+                    class="responsive-image"> </a>
+
+        </div>
+        <img class="shake-element" id="centerLogo"
+            src="https://lh3.googleusercontent.com/pw/AP1GczOK6HZ3DagVXpazDaJsK8SQaiYoMJ6LKna59YOCBjB92Aaj6Z4qVrWA5WBPY3j3vkf-yLr6W5Suzswa1mlmalgxG-Fk7nk2regs_yNxNbNDWHYvDg=w2400">
+
+
+
+    </div>
+
+    <!--this is the scrolling text-->
+    <div id="list1"  style="display: none;" class="news-ticker">
+        <div class="ticker-container" id="tickerContainer">
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <!-- Repeat words/phrases as needed to achieve continuous effect -->
+        </div>
+    </div>
+
+
+    <div id="write" style="display: none;">
+        <h1 id="about" class="animate-jump">ABOUT DE RETARDS</h1>
+        <p id="aboutunder" class="animate-jump">(based + true story) </p>
+
+        <div class="image1container">
+            <div id="text1">
+                <p class="animate-jump" style="margin-left: 3.125rem; margin-top: -1rem;">we da solana crypto degenerates
+                    (rEtards) r
+                    the outcasts of society </p>
+                <p class="animate-jump" style="margin-left: 3.125rem;">society laughs at us for choosin’ retarded internet
+                    coins
+                    over fiat (fake) moneys</p>
+            </div>
+            <img id="guyoncomputer"
+                src="https://lh3.googleusercontent.com/pw/AP1GczPkyTG8rVTudAJyV4DSQGyPuHdGvd7UFCpBrqr2F9Bqf9-h0WxKYLGUFGcdiNBkxHKCMw_uSftRc4dKjKzMXzcEX61yelUHf7lP_XDJctyOidl4Ww=w2400">
+        </div>
+        <h1 class="animate-jump" style="font-size: 3.5rem;">THEY CALL US <br>RETARDS</h1>
+        <div class=image2container>
+            <img id="freedom"
+                src="https://lh3.googleusercontent.com/pw/AP1GczP_yYvfOEpWhlkhRopDxmeVAFhjvajETvQzwiIWUccmYalhDHqdfDQC3HTXvJMtLdM2E1rG4E1ICUMzGqGyvawJ6Me10qLiSHGaAblV3bBxhgXj1g=w2400">
+            <div id="text2">
+                <p class="animate-jump" style="margin-top: 2rem;">But we dOn't care what they think. <br><br>
                     our rEtarded internet coins bring fun and freedom, makin’ da world better </p>
+                    
 
-                    <h1 class="animate-jump" style="font-size: 68px; margin-left: -100px; margin-top: -100px;"><br>RETARD MEANS FREE FROM BORING NORMS</h1>
-
-                </div>
-            </div>
-            <p class="animate-jump" style="margin-right: 40%; margin-top: 100px; margin-left: auto;">everyone’s got a bit of rEtardation in their heart, even if they dOn’t knOw it yet.
-            </p>
-
-            <div class="image3con">
-                <div id="text3">
-                    <h1 class="animate-jump" style="font-size: 68px; margin-top: -10px;">
-                    WE RETARDS ARE LEADING THE CHARGE FOR CHANGE
- 
-                    </h1>
-                    <p class="animate-jump" style="margin-left: 100px; margin-bottom: 350px;">mission? to unite 69 million+ rEtards to join us on-chain and get rEtarded together.
-                    </p>
-                </div>
-                <img  style="margin-bottom: 200px;" id="house" src="https://lh3.googleusercontent.com/pw/AP1GczNtDmheN0Z871d6iWjNrQWFGEhaKM8BGDTimXqjeKFwfmnePZqEZpMlzjXHjCVuVmnma6QtlFk5L2I4NH2MBLUMi8Py9zEmdiokRIR04es3u3StXQ=w2400">
+                <h1 class="animate-jump" style="font-size: 3rem; margin-left: -3rem; margin-top: -3rem;"><br>RETARD
+                    MEANS FREE
+                    FROM BORING NORMS</h1>
 
             </div>
         </div>
-<div id="gay" style="display: none;">
+        <p id="retardationText" class="animate-jump" style="margin-right: 35%; margin-top: 6rem; margin-left: 4rem;">
+            everyone’s got a bit of rEtardation in their heart, even if they dOn’t knOw it yet.
+        </p>
+
+        <div class="image3con" style="margin-bottom: 10rem;">
+            <div id="text3">
+                <h1 class="animate-jump" style="font-size: 3rem; margin-top: 0; margin-left: -2rem;">
+                    WE RETARDS ARE LEADING THE CHARGE FOR CHANGE
+
+                </h1>
+                <p class="animate-jump" style="margin-left: 0;">mission? to unite 69 million+
+                    rEtards
+                    to join us on-chain and get rEtarded together.
+                </p>
+            </div>
+            <img style="margin-bottom: 13rem;" id="house"
+                src="https://lh3.googleusercontent.com/pw/AP1GczNtDmheN0Z871d6iWjNrQWFGEhaKM8BGDTimXqjeKFwfmnePZqEZpMlzjXHjCVuVmnma6QtlFk5L2I4NH2MBLUMi8Py9zEmdiokRIR04es3u3StXQ=w2400">
+
+        </div>
+    </div>
+    <div id="gay" style="display: none;">
         <div>
             <div id="tokenomicsbg">
-                <div style="margin-left: 500px; margin-top: -100px;" class="box">
+                <div style="margin-top: -20%; " class="box">
                     <h1 id="m">NO TAX</h1>
-                
-                    <img id="img1" src="https://lh3.googleusercontent.com/pw/AP1GczPP3cV1dcfFHIkYGO2zQMX2dgLfsl9prAE5jFt3aKBrIC5zIFgeFdzXuMENNQyAY-xev7Wxw1CLalG9I0KsH-BqOPhr5VTprzTsg_ibqrPVlxLkIQ=w2400">
+
+                    <img id="img1"
+                        src="https://lh3.googleusercontent.com/pw/AP1GczPP3cV1dcfFHIkYGO2zQMX2dgLfsl9prAE5jFt3aKBrIC5zIFgeFdzXuMENNQyAY-xev7Wxw1CLalG9I0KsH-BqOPhr5VTprzTsg_ibqrPVlxLkIQ=w2400">
                 </div>
-                <div style="margin-right: 500px; margin-top: -100px;" class="box">
+                <div style="margin-top: -20%; " class="box">
                     <h1 id="m">LP LOCKED</h1>
-                    <img id="img2" src="https://lh3.googleusercontent.com/pw/AP1GczMHsZH_CELU5Zzfr-MUE_pa0L0Tp1R7J9xzhEMCrsS8KCvFcdqTZZxeFvcInm_15Pwd7FOLbvnCfZKp8hmDEW1bUFn00T8pAfKHMC5OKVJJruWg_A=w2400">
+                    <img id="img2"
+                        src="https://lh3.googleusercontent.com/pw/AP1GczMHsZH_CELU5Zzfr-MUE_pa0L0Tp1R7J9xzhEMCrsS8KCvFcdqTZZxeFvcInm_15Pwd7FOLbvnCfZKp8hmDEW1bUFn00T8pAfKHMC5OKVJJruWg_A=w2400">
                 </div>
             </div>
         </div>
-            <div style="margin-bottom: 100px;" id="tokenomicsbg">
-                <div style="margin-top: 35px; margin-left: 500px; margin-bottom: 150px;" class="box">
+        <div>
+            <div style="margin-bottom: 5%;" id="tokenomicsbg">
+                <div style="margin-bottom: -5%; margin-top: -20%;" class="box">
                     <h1 id="m">RENOUNCED</h1>
-                    
-                    <img id="img3" src="https://lh3.googleusercontent.com/pw/AP1GczMHsZH_CELU5Zzfr-MUE_pa0L0Tp1R7J9xzhEMCrsS8KCvFcdqTZZxeFvcInm_15Pwd7FOLbvnCfZKp8hmDEW1bUFn00T8pAfKHMC5OKVJJruWg_A=w2400">
+
+                    <img id="img3"
+                        src="https://lh3.googleusercontent.com/pw/AP1GczMHsZH_CELU5Zzfr-MUE_pa0L0Tp1R7J9xzhEMCrsS8KCvFcdqTZZxeFvcInm_15Pwd7FOLbvnCfZKp8hmDEW1bUFn00T8pAfKHMC5OKVJJruWg_A=w2400">
                 </div>
-                <div style="margin-top: 35px; margin-right: 500px; margin-bottom: 150px;" class="box">
+                <div style="margin-bottom: -5%; margin-top: -20%;" class="box">
                     <h1 id="m">VERY RETARDED</h1>
-                    <img id="img4" src="https://lh3.googleusercontent.com/pw/AP1GczPP3cV1dcfFHIkYGO2zQMX2dgLfsl9prAE5jFt3aKBrIC5zIFgeFdzXuMENNQyAY-xev7Wxw1CLalG9I0KsH-BqOPhr5VTprzTsg_ibqrPVlxLkIQ=w2400">
+                    <img id="img4"
+                        src="https://lh3.googleusercontent.com/pw/AP1GczPP3cV1dcfFHIkYGO2zQMX2dgLfsl9prAE5jFt3aKBrIC5zIFgeFdzXuMENNQyAY-xev7Wxw1CLalG9I0KsH-BqOPhr5VTprzTsg_ibqrPVlxLkIQ=w2400">
                 </div>
             </div>
         </div>
-</div>
+    </div>
 
-          <!--this is the scrolling text-->
-          <div id="list2" class="news-ticker" style="margin-top: -100px; margin-bottom: 50px; display: none;">
-            <div style=" animation: ticker-scroll 300s linear infinite;" class="ticker-container" id="tickerContainer">
-                <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
-                <span class="ticker-text"style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES GATHER TO GET RETARDED</span>
+    <!--this is the scrolling text-->
+    <div id="list2" class="news-ticker" style="margin-top: -4rem; margin-bottom: 1.5rem; display: none; ">
+        <div style=" animation: ticker-scroll 300s linear infinite;" class="ticker-container" id="tickerContainer">
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
+            <span class="ticker-text" style="  color: rgb(3, 30, 88);">© 2024 $RETARD WHERE ALL THE SOLANA DEGENERATES
+                GATHER
+                TO GET RETARDED</span>
 
 
-                <!-- Repeat words/phrases as needed to achieve continuous effect -->
-            </div>
+            <!-- Repeat words/phrases as needed to achieve continuous effect -->
         </div>
-   
-        <div id="whole" style="display: none;">
-            <h1 id="end" style="font-size: 80px; ">
+    </div>
+
+    <div id="whole" style="display: none;">
+        <h1 id="end" style="font-size: 4rem; ">
             <br>
             COME GET <br>
             RETARDED
-            </h1>   
-        
-            <div id="end1">
-                <a class="shake-element" id="b1" href="https://t.me/retardSolana" target ="_blank">TELERGAM</a>
-                <a class="shake-element" id="b1" href="https://x.com/retardcoinonsol" target ="_blank">TWITTER/X</a>
-                
-            </div> 
+        </h1>
 
-           
-        </div>
-
-        <div id="footer"  style="display: none;">
-            <p style="text-align: center; font-size: 35px;"> 2024 $RETARD. All rights reserved.</p>
+        <div id="end1">
+            <a class="shake-element" id="b1" href="https://t.me/retardSolana" target="_blank">TELERGAM</a>
+            <a class="shake-element" id="b1" href="https://x.com/retardcoinonsol" target="_blank">TWITTER/X</a>
 
         </div>
 
 
-        
-        
-    </body>
+    </div>
+
+    <div id="footer" style="display: none;">
+        <p style="text-align: center; font-size: 2rem;"> 2024 $RETARD. All rights reserved.</p>
+
+    </div>
+
+
+
+
+</body>
 
 
 </html>
