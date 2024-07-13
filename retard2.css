@@ -1,15 +1,24 @@
-#page1{
-   display: none;
+body {
+    background-color: #f3f1f1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Architects Daughter', sans-serif;
+  }
+  
+ 
+ #page1{
+    display: none;
+ 
     background-image: url("https://lh3.googleusercontent.com/pw/AP1GczO8hvLLQwFZxk4IaXsGWwmKFBwMGD9PWrjelSOGG1ky140iBJKFFDVUkxohX1_13T89xWZLKzG5cPgU_cl2vo45WPzMbiT2fVLK4Mjj_Vy_kioCVQ=w2400");
     background-attachment: fixed;  
  /**  background-size: contain;*/ 
    
-}
-.body{
+ }
+ .body{
     background-color: #f3f1f1;
-}
-
-#topBar {
+ }
+ 
+ #topBar {
         position: fixed; /* Make the box fixed */
         top: 25px;
         left: 50%;
@@ -19,194 +28,184 @@
     align-items: center; /* Center the items vertically */
         border: 4px solid #f90; /* Box around the container */
         
-        padding-right: 10px;
-        padding: -20px -10px;
+        padding: 10px;
         background-color: #fff; /* White background for the box */
         width: 80%; /* Adjust width as needed */
         border-radius: 25px;
         z-index: 9999;
-}
-
-#logoInBox {
-    display: block;
-    width: 200px;
-    height: auto;
-    margin-left: 20px;
-    margin: 0 10px;
-}
-#logos2{
-    margin-right: 0px;
-    margin-left: auto;
-
-
-}
-#logos1{
-   float: right;
-   margin-right: -950px ;
-    margin-left: auto;
-  
-}
-
-#comeGetText {
-    margin-right: -950px ;
-   float: right;
-    margin-left: auto;
-
-}
-
+ }
+ 
+ #logoInBox {
+   display: block;
+   width: 150px;
+   height: auto;
+   margin-left: 20px;
+ }
+ #textAndLogos {
+   display: flex;
+   align-items: center;
+   margin-left: auto;
+ }
+ 
+ #comeGetText {
+   font-size: 21px;
+   margin-right: 10px;
+ 
+ }
+ 
+ 
+ #logos1, #logos2 {
+   margin-left: 10px;
+ }
   #centerLogo {
     display: block;
     width: 70%;
     height: auto;
     margin: 0 auto;
-}
-#write{
+ }
+ #write{
    
-    margin: 0 300px;
-
+    margin: 0 10%; /*     //////////////////////////////////////////////////// */
+ 
   
-}
-
-#about{
+ }
+ 
+ #about{
     margin-top: 100px;
-   font-size: 100px;
+   font-size: 2.5rem; /*   100px  //////////////////////////////////////////////////// */
    text-align: left;
-}
-#aboutunder{
-    margin-top: -90px;
-    text-align: left;
-    font-size: 30px;
-}
-.image1container{
-    display: flex;
-    align-items: center;
-    
-}
-#text1{
-    flex: 1;    
-   
-}
-#guyoncomputer{
+ }
+ #aboutunder{
+    margin-top: -20px;/*     -90px //////////////////////////////////////////////////// */
+    text-align: left; 
+    font-size: 1.5rem;/*     30px //////////////////////////////////////////////////// */
+ 
+ }
+ 
+ 
+ #guyoncomputer{
     width: 50%;
     height: auto
-}
-
-.image2container{
+ }
+ 
+ .image1container, .image2container, .image3con {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-}
-#freedom{
+    justify-content: center;
+    margin-top: 20px;
+  }
+ #freedom{
     width: 50%;
     height: auto;
     margin-top: 50px  ;
   /*  margin-left: -200px;*/
-}
-#text2{
+ }
+ #text1, #text2, #text3 {
     flex: 1;
-    margin-left: 20px; 
-    margin-top: 60px;
-}
-
-#house{
+    margin: 20px;
+  }
+ 
+ #house{
     width: 59%;
     height: auto;
-}
-.image3con{
-    display: flex;
-    align-items: center;
-}
-#text3{
-    flex: 1;
-}
-
-/** this is the scrolling list*/
-.news-ticker {
+ }
+ 
+ 
+ 
+ 
+ /** this is the scrolling list*/
+ .news-ticker {
     
     width: 100%; /* Adjust width as needed */
     overflow: hidden; /* Hide overflow to hide text that goes beyond boundaries */
     background-color: #ffffff; /* Optional: Background color */
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.ticker-container {
+ }
+ 
+ .ticker-container {
     display: inline-block; /* Ensure elements stay in a single line */
     white-space: nowrap; /* Prevent text from wrapping */
     animation: ticker-scroll 300s linear infinite; /* Infinite animation loop */
     margin-top: 25px;
     margin-bottom: 25px;
     color: #807a7a;
-}
-
-.ticker-text {
+ }
+ 
+ .ticker-text {
     margin-right: 200px; /* Adjust spacing between words */
-   font-size: 40px;
+   font-size: 1.5rem;
    font-family: 'Architects Daughter', sans-serif;
-}
-
-@keyframes ticker-scroll {
+ }
+ 
+ @keyframes ticker-scroll {
     0% { transform: translateX(0); }
     100% { transform: translateX(-100%); }
-}
-#tokenomicsbg{
+ }
+ #tokenomicsbg{
     
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between; /* Space between the boxes */
   gap: 35px; /* Optional: add some space between the boxes */
     
-
+ 
      background-image: url("https://lh3.googleusercontent.com/pw/AP1GczO8hvLLQwFZxk4IaXsGWwmKFBwMGD9PWrjelSOGG1ky140iBJKFFDVUkxohX1_13T89xWZLKzG5cPgU_cl2vo45WPzMbiT2fVLK4Mjj_Vy_kioCVQ=w2400");
     background-attachment: fixed;
+    padding: 20px; /* delee this and flex wrap  */
   
    
-}
-.box {
-    flex: 1; /* Makes the boxes take equal width */
+ }
+ .box {
+    flex: 1;
     background-color: white;
     text-align: center;
     border-radius: 20px;
-    transition: all .5s ease;
+    transition: all 0.5s ease;
+    margin: 10px;
+    padding: 20px;
  
   }
-#img1, #img4{
+ #img1, #img4{
     width: 30%;
     height: auto;
-}
-#img2, #img3{
+ }
+ #img2, #img3{
     width: 23%;
     height: auto;
-}
-h1{
+ }
+ h1{
     font-family: 'Russo One', sans-serif;
     color: #f90;
     text-shadow: 3px 3px 0 rgb(250, 201, 128);
-    font-size: 40px;
-}
-p{
+    font-size: 2rem;
+ }
+ p{
     
     font-family: 'Architects Daughter', sans-serif;
-    font-size: 40px;
+    font-size: 2rem;
     color: #807a7a;
-}
-
-#mainHeader{
+ }
+ 
+ #mainHeader{
   
     text-align: center;
-    font-size: 60px;
-    margin-top: 350px;
+    font-size: 3.5rem;
+    margin-top: 20%; /*check this*/
     position: relative; /* Necessary to apply z-index */
     z-index: 9999;
     text-shadow: 7px 7px 0 rgb(250, 201, 128);
     font-family: 'Russo One', sans-serif;
    
-}
-#buttons{
+ }
+ #buttons{
     margin-top: -30px;
     display: flex;
     gap: 30px;
     justify-content: center; 
-
-}
-button{
+ 
+ }
+ button{
     padding: 5px 27px; 
     border-radius: 15px;
     color: rgb(255, 255, 255);
@@ -215,23 +214,23 @@ button{
     background-color: #f90;
     z-index: 9999;
     border: none;
-
-}
-
-#whole{
+ 
+ }
+ 
+ #whole{
     text-align: center;
         background-color: white;
     
-}
-#end1{
+ }
+ #end1{
     margin-top: -30px;
     display: flex;
     gap: 30px;
     justify-content: center; 
-
-}
-
-#b1{
+ 
+ }
+ 
+ #b1{
     padding: 5px 27px; 
     border-radius: 15px;
     color: rgb(255, 255, 255);
@@ -242,46 +241,46 @@ button{
     border: none;
     text-decoration: none;
     margin-bottom: 130px;
-}
-
-
-.shake-element:hover {
+ }
+ 
+ 
+ .shake-element:hover {
     animation: shake 0.5s;
-}
-
-@keyframes shake {
+ }
+ 
+ @keyframes shake {
     0% { transform: rotate(0deg); }
     25% { transform: rotate(10deg); }
     50% { transform: rotate(-10deg); }
     75% { transform: rotate(10deg); }
     100% { transform: rotate(0deg); }
-}
-
-
-
-.box:hover {
-
+ }
+ 
+ 
+ 
+ .box:hover {
+ 
     filter:drop-shadow(0 0 140px rgb(124, 124, 124));
-
+ 
     transform: scale(1.1);
    
-} 
-
-.animate-jump {
+ } 
+ 
+ .animate-jump {
     opacity: 0;
     transform: translateY(50px); /* Initial position off-screen */
     transition: opacity 0.3s ease, transform 0.3s ease;
-}
-.animate-jump.animate-in {
+ }
+ .animate-jump.animate-in {
     opacity: 1;
     transform: translateY(0);
-}
-
-
-
-
-
-#fullPic{
+ }
+ 
+ 
+ 
+ 
+ 
+ #fullPic{
     width: 380px;
     height: auto;
     animation: slideInLeft 1s forwards;
@@ -289,8 +288,8 @@ button{
     top: 63%;
     position: absolute;
     transform: translateY(-50%);
-}
-#frontPic{
+ }
+ #frontPic{
     width: 380px;
     height: auto;
     animation: slideInCenter 1s forwards;
@@ -298,8 +297,8 @@ button{
     left: 70%; /* Center horizontally */
     transform: translateX(-50%);
     bottom: -100%; /* Start off-screen at the bottom */
-}
-#applePic1{
+ }
+ #applePic1{
     width: 150px;
     height: auto;
     animation: slideInRight 1s forwards;
@@ -307,8 +306,8 @@ button{
     right: -100%; /* Start off-screen to the right */
             bottom: 50%; /* Center vertically */
             transform: translateY(50%);
-}
-#finalpic{
+ }
+ #finalpic{
     width: 300px;
     height: auto;
     animation: slideInBottom 1s forwards;
@@ -316,8 +315,8 @@ button{
     left: 30%; /* Center horizontally */
     transform: translateX(-50%);
     top: -100%; /* Start off-screen at the bottom */
-}
-#fullPic2{
+ }
+ #fullPic2{
     width: 600px;
     height: auto;
     animation: slideInLeft 1s forwards;
@@ -325,8 +324,8 @@ button{
     top: 63%;
     position: absolute;
     transform: translateY(-50%);
-}
-#applePic2{
+ }
+ #applePic2{
     width: 600px;
     height: auto;
     animation: slideInRight 1s forwards;
@@ -334,8 +333,8 @@ button{
     right: -100%; /* Start off-screen to the right */
             bottom: 50%; /* Center vertically */
             transform: translateY(50%);
-}
-@keyframes slideInLeft {
+ }
+ @keyframes slideInLeft {
     from {
         left: -100%; /* Start from outside the left side */
         opacity: 0;
@@ -344,9 +343,9 @@ button{
         left: 0%; /* Move towards left slightly */
         opacity: 1;
     }
-}
-
-@keyframes slideInCenter {
+ }
+ 
+ @keyframes slideInCenter {
     from {
         bottom: -100%; /* Start from outside the bottom */
         opacity: 0;
@@ -355,9 +354,9 @@ button{
         bottom: 0%; /* Move upwards slightly */
         opacity: 1;
     }
-}
-
-@keyframes slideInRight {
+ }
+ 
+ @keyframes slideInRight {
     from {
         right: -100%; /* Start from outside the right side */
         opacity: 0;
@@ -366,8 +365,8 @@ button{
         right: 0%; /* Move towards right slightly */
         opacity: 1;
     }
-}
-@keyframes slideInBottom {
+ }
+ @keyframes slideInBottom {
     from {
         top: -100%; /* Start from outside the bottom */
         opacity: 0;
@@ -376,12 +375,65 @@ button{
         top: 0%; /* Move upwards slightly */
         opacity: 1;
     }
-}
-
-
-#ending{
+ }
+ 
+ 
+ 
+ /*
+  .animated-image{
+    width: 300px;
+    height: auto;
+    opacity: 0;
+    position: absolute;
+ }
+ .from-left{
+    animation: slideInLeft 1s forwards;
+ }
+ .from-right{
+    animation: slideInRight 1s forwards;
+ }
+ .from-bottom{
+    animation: slideInBottom 1s forwards;
+ }
+ 
+ @keyframes slideInLeft {
+    from {
+     left: -100%;
+     opacity: 0;
+    }
+  
+    to{
+      left: 0;
+      opacity: 1;
+    }
+  }
+  @keyframes slideInRight {
+    from {
+     bottom: -100px;
+     opacity: 0;
+    }
+  
+    to{
+      bottom: 10px;
+      opacity: 1;
+    }
+  }
+  @keyframes slideInBottom {
+    from {
+     top: -100%;
+     opacity: 0;
+    }
+  
+    to{
+      top: 0;
+      opacity: 1;
+    }
+  }
+ */
+ #ending{
     font-size: 30px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#f90;
-}
+ }
+ 
