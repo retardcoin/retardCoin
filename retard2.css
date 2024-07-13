@@ -1,385 +1,496 @@
 body {
-    background-color: #f3f1f1;
-    margin: 0;
-    padding: 0;
-    font-family: 'Architects Daughter', sans-serif;
-  }
-  
- 
- #page1{
-    display: none;
- 
-    background-image: url("https://lh3.googleusercontent.com/pw/AP1GczO8hvLLQwFZxk4IaXsGWwmKFBwMGD9PWrjelSOGG1ky140iBJKFFDVUkxohX1_13T89xWZLKzG5cPgU_cl2vo45WPzMbiT2fVLK4Mjj_Vy_kioCVQ=w2400");
-    background-attachment: fixed;  
- /**  background-size: contain;*/ 
-   
+   background-color: #f3f1f1;
+   margin: 0;
+   padding: 0;
+   font-family: 'Architects Daughter', sans-serif;
+}
+
+
+#page1 {
+display: none;
+   background-image: url("https://lh3.googleusercontent.com/pw/AP1GczO8hvLLQwFZxk4IaXsGWwmKFBwMGD9PWrjelSOGG1ky140iBJKFFDVUkxohX1_13T89xWZLKzG5cPgU_cl2vo45WPzMbiT2fVLK4Mjj_Vy_kioCVQ=w2400");
+   background-attachment: fixed;
+   /**  background-size: contain;*/
+
+}
+.responsive-image {
+   width: 80%; /* Adjust percentage as needed */
+   height: auto; /* Maintains the aspect ratio */
+   max-width: 57px; /* Optional: limit the maximum size */
  }
- .body{
-    background-color: #f3f1f1;
- }
- 
- #topBar {
-        position: fixed; /* Make the box fixed */
-        top: 25px;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex; /* Flex container to align items horizontally */
-      /* justify-content: space-between; /* Space items evenly */
-    align-items: center; /* Center the items vertically */
-        border: 4px solid #f90; /* Box around the container */
-        
-        padding: 10px;
-        background-color: #fff; /* White background for the box */
-        width: 80%; /* Adjust width as needed */
-        border-radius: 25px;
-        z-index: 9999;
- }
- 
- #logoInBox {
+
+.body {
+   background-color: #f3f1f1;
+}
+
+#topBar {
+   position: fixed;
+   /* Make the box fixed */
+   top: 1rem;
+   left: 50%;
+   transform: translateX(-50%);
+   display: flex;
+   /* Flex container to align items horizontally */
+   /* justify-content: space-between; /* Space items evenly */
+   align-items: center;
+   /* Center the items vertically */
+   border: 4px solid #f90;
+   /* Box around the container */
+
+   padding: 0.2rem;
+   background-color: #fff;
+   /* White background for the box */
+   width: 80%;
+   /* Adjust width as needed */
+   border-radius: 25px;
+   z-index: 9999;
+}
+
+#logoInBox {
    display: block;
-   width: 150px;
+   width: 15%;
    height: auto;
    margin-left: 20px;
- }
- #textAndLogos {
+}
+
+#textAndLogos {
    display: flex;
    align-items: center;
    margin-left: auto;
- }
- 
- #comeGetText {
-   font-size: 21px;
-   margin-right: 10px;
- 
- }
- 
- 
- #logos1, #logos2 {
-   margin-left: 10px;
- }
-  #centerLogo {
-    display: block;
-    width: 70%;
-    height: auto;
-    margin: 0 auto;
- }
- #write{
-   
-    margin: 0 10%; /*     //////////////////////////////////////////////////// */
- 
-  
- }
- 
- #about{
-    margin-top: 100px;
-   font-size: 2.5rem; /*   100px  //////////////////////////////////////////////////// */
+}
+
+#comeGetText {
+   margin-right: 0.5rem;
+
+}
+
+
+#logos1,
+#logos2 {
+   margin-left: 0.5rem;
+}
+
+#centerLogo {
+   display: block;
+   width: 70%;
+   height: auto;
+   margin: 0 auto;
+}
+
+#write {
+
+   margin: 0 15%;
+   /*     //////////////////////////////////////////////////// */
+}
+
+#about {
+   margin-top: 10%;
+   font-size: 6rem;
+   /*   100px  //////////////////////////////////////////////////// */
    text-align: left;
- }
- #aboutunder{
-    margin-top: -20px;/*     -90px //////////////////////////////////////////////////// */
-    text-align: left; 
-    font-size: 1.5rem;/*     30px //////////////////////////////////////////////////// */
- 
- }
- 
- 
- #guyoncomputer{
-    width: 50%;
-    height: auto
- }
- 
- .image1container, .image2container, .image3con {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-  }
- #freedom{
-    width: 50%;
-    height: auto;
-    margin-top: 50px  ;
-  /*  margin-left: -200px;*/
- }
- #text1, #text2, #text3 {
-    flex: 1;
-    margin: 20px;
-  }
- 
- #house{
-    width: 59%;
-    height: auto;
- }
- 
- 
- 
- 
- /** this is the scrolling list*/
- .news-ticker {
-    
-    width: 100%; /* Adjust width as needed */
-    overflow: hidden; /* Hide overflow to hide text that goes beyond boundaries */
-    background-color: #ffffff; /* Optional: Background color */
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
- }
- 
- .ticker-container {
-    display: inline-block; /* Ensure elements stay in a single line */
-    white-space: nowrap; /* Prevent text from wrapping */
-    animation: ticker-scroll 300s linear infinite; /* Infinite animation loop */
-    margin-top: 25px;
-    margin-bottom: 25px;
-    color: #807a7a;
- }
- 
- .ticker-text {
-    margin-right: 200px; /* Adjust spacing between words */
+   text-shadow:  0.5rem 0.5rem 0 rgb(250, 196, 115);
+}
+
+#aboutunder {
+   margin-top: -5rem;
+   /*     -90px //////////////////////////////////////////////////// */
+   text-align: left;
+   font-size: 2rem;
+   /*     30px //////////////////////////////////////////////////// */
+
+}
+
+
+#guyoncomputer {
+   width: 50%;
+   height: auto
+}
+
+.image1container,
+.image2container,
+.image3con {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+   flex-wrap: nowrap;
+  /*  Enable wrapping for smaller screens */
+}
+
+#freedom {
+   width: 50%;
+   height: auto;
+  
+}
+
+#text1 p:first-of-type {
+   margin-top: 0;
+   /* Remove top margin from first paragraph */
+}
+
+
+
+#text1,
+#text2,
+#text3 {
+   flex: 1;
+   margin: .5rem;
+}
+
+#house {
+   width: 59%;
+   height: auto;
+}
+
+/* New media query to handle smaller screens */
+@media (max-width: 768px) {
+   .image2container, .image3con {
+       flex-direction: column; /* Changed to column to stack items vertically */
+       align-items: center; /* Centered items horizontally */
+   }
+   #freedom, #house {
+       width: 100%; /* Full width on smaller screens */
+   }
+   #text1, #text2, #text3 {
+       width: 100%; /* Full width on smaller screens */
+       margin: 1rem 0; /* Added vertical margin for spacing */
+       text-align: center; /* Centered text */
+   }
+}
+
+/** this is the scrolling list*/
+.news-ticker {
+
+   width: 100%;
+   /* Adjust width as needed */
+   overflow: hidden;
+   /* Hide overflow to hide text that goes beyond boundaries */
+   background-color: #ffffff;
+   /* Optional: Background color */
+   box-shadow: 1.1rem 1.1rem 2.2rem rgba(0, 0, 0, 0.2);
+}
+
+.ticker-container {
+   display: inline-block;
+   /* Ensure elements stay in a single line */
+   white-space: nowrap;
+   /* Prevent text from wrapping */
+   animation: ticker-scroll 300s linear infinite;
+   /* Infinite animation loop */
+   margin-top: 1.6rem;
+   margin-bottom: 1.6rem;
+   color: #807a7a;
+}
+
+.ticker-text {
+   margin-right: 200px;
+   /* Adjust spacing between words */
    font-size: 1.5rem;
    font-family: 'Architects Daughter', sans-serif;
- }
- 
- @keyframes ticker-scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
- }
- #tokenomicsbg{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Space between the boxes */
-  gap: 35px; /* Optional: add some space between the boxes */
-    
- 
-     background-image: url("https://lh3.googleusercontent.com/pw/AP1GczO8hvLLQwFZxk4IaXsGWwmKFBwMGD9PWrjelSOGG1ky140iBJKFFDVUkxohX1_13T89xWZLKzG5cPgU_cl2vo45WPzMbiT2fVLK4Mjj_Vy_kioCVQ=w2400");
-    background-attachment: fixed;
-    padding: 20px; /* delee this and flex wrap  */
-  
-   
- }
- .box {
-    flex: 1;
-    background-color: white;
-    text-align: center;
-    border-radius: 20px;
-    transition: all 0.5s ease;
-    margin: 10px;
-    padding: 20px;
- 
-  }
- #img1, #img4{
-    width: 30%;
-    height: auto;
- }
- #img2, #img3{
-    width: 23%;
-    height: auto;
- }
- h1{
-    font-family: 'Russo One', sans-serif;
-    color: #f90;
-    text-shadow: 3px 3px 0 rgb(250, 201, 128);
-    font-size: 2rem;
- }
- p{
-    
-    font-family: 'Architects Daughter', sans-serif;
-    font-size: 2rem;
-    color: #807a7a;
- }
- 
- #mainHeader{
-  
-    text-align: center;
-    font-size: 3.5rem;
-    margin-top: 20%; /*check this*/
-    position: relative; /* Necessary to apply z-index */
-    z-index: 9999;
-    text-shadow: 7px 7px 0 rgb(250, 201, 128);
-    font-family: 'Russo One', sans-serif;
-   
- }
- #buttons{
-    margin-top: -30px;
-    display: flex;
-    gap: 30px;
-    justify-content: center; 
- 
- }
- button{
-    padding: 5px 27px; 
-    border-radius: 15px;
-    color: rgb(255, 255, 255);
-    font-family: 'Russo One', sans-serif;
-    font-size: 35px;
-    background-color: #f90;
-    z-index: 9999;
-    border: none;
- 
- }
- 
- #whole{
-    text-align: center;
-        background-color: white;
-    
- }
- #end1{
-    margin-top: -30px;
-    display: flex;
-    gap: 30px;
-    justify-content: center; 
- 
- }
- 
- #b1{
-    padding: 5px 27px; 
-    border-radius: 15px;
-    color: rgb(255, 255, 255);
-    font-family: 'Russo One', sans-serif;
-    font-size: 35px;
-    background-color: #f90;
-    z-index: 9999;
-    border: none;
-    text-decoration: none;
-    margin-bottom: 130px;
- }
- 
- 
- .shake-element:hover {
-    animation: shake 0.5s;
- }
- 
- @keyframes shake {
-    0% { transform: rotate(0deg); }
-    25% { transform: rotate(10deg); }
-    50% { transform: rotate(-10deg); }
-    75% { transform: rotate(10deg); }
-    100% { transform: rotate(0deg); }
- }
- 
- 
- 
- .box:hover {
- 
-    filter:drop-shadow(0 0 140px rgb(124, 124, 124));
- 
-    transform: scale(1.1);
-   
- } 
- 
- .animate-jump {
-    opacity: 0;
-    transform: translateY(50px); /* Initial position off-screen */
-    transition: opacity 0.3s ease, transform 0.3s ease;
- }
- .animate-jump.animate-in {
-    opacity: 1;
-    transform: translateY(0);
- }
- 
- 
- 
- 
- 
- #fullPic{
-    width: 380px;
-    height: auto;
-    animation: slideInLeft 1s forwards;
-    left: -100%;
-    top: 63%;
-    position: absolute;
-    transform: translateY(-50%);
- }
- #frontPic{
-    width: 380px;
-    height: auto;
-    animation: slideInCenter 1s forwards;
-    position: absolute;
-    left: 70%; /* Center horizontally */
-    transform: translateX(-50%);
-    bottom: -100%; /* Start off-screen at the bottom */
- }
- #applePic1{
-    width: 150px;
-    height: auto;
-    animation: slideInRight 1s forwards;
-    position: absolute;
-    right: -100%; /* Start off-screen to the right */
-            bottom: 50%; /* Center vertically */
-            transform: translateY(50%);
- }
- #finalpic{
-    width: 300px;
-    height: auto;
-    animation: slideInBottom 1s forwards;
-    position: absolute;
-    left: 30%; /* Center horizontally */
-    transform: translateX(-50%);
-    top: -100%; /* Start off-screen at the bottom */
- }
- #fullPic2{
-    width: 600px;
-    height: auto;
-    animation: slideInLeft 1s forwards;
-    left: -100%;
-    top: 63%;
-    position: absolute;
-    transform: translateY(-50%);
- }
- #applePic2{
-    width: 600px;
-    height: auto;
-    animation: slideInRight 1s forwards;
-    position: absolute;
-    right: -100%; /* Start off-screen to the right */
-            bottom: 50%; /* Center vertically */
-            transform: translateY(50%);
- }
- @keyframes slideInLeft {
-    from {
-        left: -100%; /* Start from outside the left side */
-        opacity: 0;
-    }
-    to {
-        left: 0%; /* Move towards left slightly */
-        opacity: 1;
-    }
- }
- 
- @keyframes slideInCenter {
-    from {
-        bottom: -100%; /* Start from outside the bottom */
-        opacity: 0;
-    }
-    to {
-        bottom: 0%; /* Move upwards slightly */
-        opacity: 1;
-    }
- }
- 
- @keyframes slideInRight {
-    from {
-        right: -100%; /* Start from outside the right side */
-        opacity: 0;
-    }
-    to {
-        right: 0%; /* Move towards right slightly */
-        opacity: 1;
-    }
- }
- @keyframes slideInBottom {
-    from {
-        top: -100%; /* Start from outside the bottom */
-        opacity: 0;
-    }
-    to {
-        top: 0%; /* Move upwards slightly */
-        opacity: 1;
-    }
- }
- 
- 
- 
- /*
+}
+
+@keyframes ticker-scroll {
+   0% {
+      transform: translateX(0);
+   }
+
+   100% {
+      transform: translateX(-100%);
+   }
+}
+
+#tokenomicsbg {
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   /* Space between the boxes */
+   /* gap: 35px; */
+   /* Optional: add some space between the boxes */
+
+
+   background-image: url("https://lh3.googleusercontent.com/pw/AP1GczO8hvLLQwFZxk4IaXsGWwmKFBwMGD9PWrjelSOGG1ky140iBJKFFDVUkxohX1_13T89xWZLKzG5cPgU_cl2vo45WPzMbiT2fVLK4Mjj_Vy_kioCVQ=w2400");
+   background-attachment: fixed;
+   padding: 10%;
+   /* delee this and flex wrap  */
+
+}
+
+
+.box {
+   flex: 0 0 30%;
+   background-color: white;
+   text-align: center;
+   border-radius: 20px;
+   transition: all 0.5s ease;
+   margin: 1rem;
+   padding: 2rem;
+
+}
+
+#img1,
+#img4 {
+   width: 30%;
+   height: auto;
+}
+
+#img2,
+#img3 {
+   width: 23%;
+   height: auto;
+}
+
+h1 {
+   font-family: 'Russo One', sans-serif;
+   color: #f90;
+   text-shadow:  0.25rem 0.25rem 0 rgb(250, 196, 115);
+   font-size: 2rem;
+}
+
+p {
+
+   font-family: 'Architects Daughter', sans-serif;
+   font-size: 2rem;
+   color: #807a7a;
+}
+
+#mainHeader {
+
+   text-align: center;
+   font-size: 350%;
+   margin-top: 20%;
+   /*check this*/
+   position: relative;
+   /* Necessary to apply z-index */
+   z-index: 9999;
+   text-shadow:  0.4rem 0.4rem 0 rgb(250, 196, 115);
+   font-family: 'Russo One', sans-serif;
+
+}
+
+#buttons {
+   margin-top: -30px;
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+
+}
+
+button {
+   padding: 5px 27px;
+   border-radius: 15px;
+   color: rgb(255, 255, 255);
+   font-family: 'Russo One', sans-serif;
+   font-size: 35px;
+   background-color: #f90;
+   z-index: 9999;
+   border: none;
+
+}
+
+#whole {
+   text-align: center;
+   background-color: white;
+
+}
+
+#end1 {
+   margin-top: -30px;
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+
+}
+
+#b1 {
+   padding: .3rem 1.7rem;
+   border-radius: 15px;
+   color: rgb(255, 255, 255);
+   font-family: 'Russo One', sans-serif;
+   font-size: 2rem;
+   background-color: #f90;
+   z-index: 9999;
+   border: none;
+   text-decoration: none;
+   margin-bottom: 6rem;
+}
+
+
+.shake-element:hover {
+   animation: shake 0.5s;
+}
+
+@keyframes shake {
+   0% {
+      transform: rotate(0deg);
+   }
+
+   25% {
+      transform: rotate(10deg);
+   }
+
+   50% {
+      transform: rotate(-10deg);
+   }
+
+   75% {
+      transform: rotate(10deg);
+   }
+
+   100% {
+      transform: rotate(0deg);
+   }
+}
+
+
+
+.box:hover {
+
+   filter: drop-shadow(0 0 140px rgb(124, 124, 124));
+
+   transform: scale(1.1);
+
+}
+
+.animate-jump {
+   opacity: 0;
+   transform: translateY(50px);
+   /* Initial position off-screen */
+   transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.animate-jump.animate-in {
+   opacity: 1;
+   transform: translateY(0);
+}
+
+#fullPic {
+   width: 20%;
+   height: auto;
+   animation: slideInLeft 1s forwards;
+   left: -100%;
+   top: 63%;
+   position: absolute;
+   transform: translateY(-50%);
+}
+
+#frontPic {
+   width: 20%;
+   height: auto;
+   animation: slideInCenter 1s forwards;
+   position: absolute;
+   left: 70%;
+   /* Center horizontally */
+   transform: translateX(-50%);
+   bottom: -100%;
+   /* Start off-screen at the bottom */
+}
+
+#applePic1 {
+   width: 13%;
+   height: auto;
+   animation: slideInRight 1s forwards;
+   position: absolute;
+   right: -100%;
+   /* Start off-screen to the right */
+   bottom: 50%;
+   /* Center vertically */
+   transform: translateY(50%);
+}
+
+#finalpic {
+   width: 20%;
+   height: auto;
+   animation: slideInBottom 1s forwards;
+   position: absolute;
+   left: 30%;
+   /* Center horizontally */
+   transform: translateX(-50%);
+   top: -100%;
+   /* Start off-screen at the bottom */
+}
+
+#fullPic2 {
+   width: 30%;
+   height: auto;
+   animation: slideInLeft 1s forwards;
+   left: -100%;
+   top: 63%;
+   position: absolute;
+   transform: translateY(-50%);
+}
+
+#applePic2 {
+   width: 30%;
+   height: auto;
+   animation: slideInRight 1s forwards;
+   position: absolute;
+   right: -100%;
+   /* Start off-screen to the right */
+   bottom: 50%;
+   /* Center vertically */
+   transform: translateY(50%);
+}
+
+@keyframes slideInLeft {
+   from {
+      left: -100%;
+      /* Start from outside the left side */
+      opacity: 0;
+   }
+
+   to {
+      left: 0%;
+      /* Move towards left slightly */
+      opacity: 1;
+   }
+}
+
+@keyframes slideInCenter {
+   from {
+      bottom: -100%;
+      /* Start from outside the bottom */
+      opacity: 0;
+   }
+
+   to {
+      bottom: 0%;
+      /* Move upwards slightly */
+      opacity: 1;
+   }
+}
+
+@keyframes slideInRight {
+   from {
+      right: -100%;
+      /* Start from outside the right side */
+      opacity: 0;
+   }
+
+   to {
+      right: 0%;
+      /* Move towards right slightly */
+      opacity: 1;
+   }
+}
+
+@keyframes slideInBottom {
+   from {
+      top: -100%;
+      /* Start from outside the bottom */
+      opacity: 0;
+   }
+
+   to {
+      top: 0%;
+      /* Move upwards slightly */
+      opacity: 1;
+   }
+}
+
+
+
+/*
   .animated-image{
     width: 300px;
     height: auto;
@@ -401,7 +512,7 @@ body {
      left: -100%;
      opacity: 0;
     }
-  
+ 
     to{
       left: 0;
       opacity: 1;
@@ -412,7 +523,7 @@ body {
      bottom: -100px;
      opacity: 0;
     }
-  
+ 
     to{
       bottom: 10px;
       opacity: 1;
@@ -423,17 +534,20 @@ body {
      top: -100%;
      opacity: 0;
     }
-  
+ 
     to{
       top: 0;
       opacity: 1;
     }
   }
  */
- #ending{
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#f90;
- }
- 
+#ending {
+   font-size: 30px;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #f90;
+}
+
+#m {
+   font-size: 2rem;
+}
