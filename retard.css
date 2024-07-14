@@ -149,18 +149,18 @@ body {
   }
   
   button {
-    padding: 1vw 1.5vw; /* Adjust padding for smaller screens */
-    font-size: 1.5vw; /* Adjust font size for smaller screens */
+    padding: 4vw 8vw; /* Adjust padding for smaller screens */
+    font-size: 3vw; /* Adjust font size for smaller screens */
   }
 }
 /* New media query to handle smaller screens */
 @media (max-width: 768px) {
   #mainHeader{
-    font-size: 10vw;
+    font-size: 8vw;
   }
    button {
-    padding: 1vw 2vw; /* Adjust padding for smaller screens */
-    font-size: 1.5vw; /* Adjust font size for smaller screens */
+    padding: 2vw 4vw; /* Adjust padding for smaller screens */
+    font-size: 2vw; /* Adjust font size for smaller screens */
   }
   .image2container,
   .image3con {
@@ -286,7 +286,7 @@ p {
 }
 
 #mainHeader {
-  display: flex; /*testing*/
+/*   display: flex; /*testing*/ */
   font-size: 6vw;
   margin: 2rem 0;
   /*check this*/
@@ -306,11 +306,11 @@ p {
   flex-wrap: wrap;
 }
 button {
-  padding: 2vw 4vw;/* Larger padding for phone portrait mode */
+  padding: 1vw 3vw;/* Larger padding for phone portrait mode */
   border-radius: 1rem;
   color: rgb(255, 255, 255);
   font-family: 'Russo One', sans-serif;
-  font-size: 2vw;/* Larger font size for phone portrait mode */
+  font-size: 1.5vw;/* Larger font size for phone portrait mode */
   background-color: #f90;
   z-index: 9999;
   border: none;
