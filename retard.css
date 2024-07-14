@@ -384,9 +384,9 @@ button {
   height: auto;
   animation: slideInCenter 1s forwards;
   position: relative;
-  left: 70%;
+  left: 60%;
   /* Center horizontally */
-  transform: translate(-50%, 0);
+  transform: translateX(-50%, 0);
   bottom: -100%
   /* Start off-screen at the bottom */
 }
