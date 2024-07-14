@@ -386,8 +386,8 @@ button {
   position: absolute;
   left: 70%;
   /* Center horizontally */
-  transform: translateX(-50%, 0);
-  bottom: 5%
+  transform: translate(-50%, 0);
+  bottom: 10%
 /*   top: calc(100%-30%); */
   /* Start off-screen at the bottom */
 }
@@ -401,7 +401,7 @@ button {
   /* Start off-screen to the right */
   bottom: 50%;
   /* Center vertically */
-  transform: translateY(50%);
+  transform: translateY(-50%);
 }
 
 #finalpic {
