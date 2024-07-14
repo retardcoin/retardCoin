@@ -381,7 +381,7 @@ button {
 
 #frontPic {
   width: 40%;
-  height: auto;
+/*   height: auto; */
   animation: slideInCenter 1s forwards;
   position: relative;
   left: 60%;
@@ -393,7 +393,7 @@ button {
 
 #applePic1 {
   width: 13%;
-  height: auto;
+/*   height: auto; */
   animation: slideInRight 1s forwards;
   position: absolute;
   right: -100%;
