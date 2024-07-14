@@ -142,7 +142,9 @@ body {
 }
 /* New media query to handle smaller screens */
 @media (max-width: 768px) {
-  
+ #mainheader{
+   font-size: 8vw;
+ }
   .image2container,
   .image3con {
     flex-direction: column;
