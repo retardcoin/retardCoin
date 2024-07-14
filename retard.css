@@ -7,10 +7,10 @@ body {
 }
 
 #first {
-  min-height: calc(100vh - 5rem); /* Adjust the height to avoid the address bar */
-  padding-bottom: 3rem; /* Add padding to avoid the address bar */
+/*   min-height: calc(100vh - 5rem); /* Adjust the height to avoid the address bar */
+  padding-bottom: 3rem; /* Add padding to avoid the address bar */ */
   flex-direction: column;
-/*   min-height: 100vh;  */
+/*  min-height: 100vh;  */
   text-align: center;
   display: flex; 
 /*   padding: 1em; */
@@ -299,18 +299,18 @@ p {
 }
 
 #buttons {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
 }
 button {
-  padding: 4vw 8vw;/* Larger padding for phone portrait mode */
+  padding: 2vw 4vw;/* Larger padding for phone portrait mode */
   border-radius: 1rem;
   color: rgb(255, 255, 255);
   font-family: 'Russo One', sans-serif;
-  font-size: 3vw;/* Larger font size for phone portrait mode */
+  font-size: 2vw;/* Larger font size for phone portrait mode */
   background-color: #f90;
   z-index: 9999;
   border: none;
