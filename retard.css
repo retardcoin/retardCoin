@@ -168,7 +168,31 @@ body {
     /* Centered text */
   }
 }
+@media (max-width: 480px) and (orientation: portrait) {
+  #mainHeader {
+    font-size: 10vw;
+  }
+  button {
+    padding: 4vw 8vw;
+    font-size: 3vw;
+  }
+  #first {
+    min-height: calc(100vh - 3rem);
+    padding-top: 3rem;
+  }
+}
 
+/* Testing */
+
+@media (max-width: 768px) {
+  #mainHeader {
+    font-size: 8vw;
+  }
+  button {
+    padding: 2vw 4vw;
+    font-size: 2vw;
+  }
+}
 /** this is the scrolling list*/
 .news-ticker {
 
@@ -258,9 +282,10 @@ p {
 
 #mainHeader {
 
-/*   text-align: center; */
+  text-align: center;
   display: flex; /*testing*/
   font-size: 3.5rem;
+  
   margin: 2rem 0;
   /*check this*/
   position: relative;
