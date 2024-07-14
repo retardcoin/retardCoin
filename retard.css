@@ -141,9 +141,26 @@ body {
   width: 59%;
   height: auto;
 }
+
+@media (max-width: 480px) {
+  #mainHeader {
+    font-size: 10vw; /* Adjust font size for smaller screens */
+  }
+  
+  button {
+    padding: 3vw 5vw; /* Adjust padding for smaller screens */
+    font-size: 2.5vw; /* Adjust font size for smaller screens */
+  }
+}
 /* New media query to handle smaller screens */
 @media (max-width: 768px) {
-  
+  #mainHeader{
+    font-size: 8vw;
+  }
+   button {
+    padding: 2vw 4vw; /* Adjust padding for smaller screens */
+    font-size: 2vw; /* Adjust font size for smaller screens */
+  }
   .image2container,
   .image3con {
     flex-direction: column;
@@ -258,10 +275,8 @@ p {
 }
 
 #mainHeader {
-
-/*   text-align: center; */
   display: flex; /*testing*/
-  font-size: 3.5rem;
+  font-size: 6vw;
   margin: 2rem 0;
   /*check this*/
   position: relative;
@@ -282,11 +297,11 @@ p {
 }
 
 button {
-  padding: .6rem 1.5rem;
+  padding: 1vw 3vw;
   border-radius: 1rem;
   color: rgb(255, 255, 255);
   font-family: 'Russo One', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5vw;
   background-color: #f90;
   z-index: 9999;
   border: none;
