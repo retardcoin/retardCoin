@@ -380,7 +380,7 @@ button {
 }
 
 #frontPic {
-  width: 20%;
+  width: 40%;
 /*   height: auto; */
   animation: slideInCenter 1s forwards;
   position: absolute;
