@@ -210,7 +210,10 @@ body {
   /* Optional: Background color */
   box-shadow: 1.1rem 1.1rem 2.2rem rgba(0, 0, 0, 0.2);
 }
-
+ #first {
+    min-height: calc(100vh - 3rem); /* Adjust the height to avoid the address bar */
+    padding-top: 3rem; /* Add padding to avoid the address bar */
+  }
 .ticker-container {
   display: inline-block;
   /* Ensure elements stay in a single line */
@@ -296,7 +299,8 @@ p {
   z-index: 9999;
   text-shadow: 0.4rem 0.4rem 0 rgb(250, 196, 115 );
   font-family: 'Russo One', sans-serif;
-  flex-wrap: wrap; /*testing*/
+  text-align: cemter;
+  
 }
 
 #buttons {
