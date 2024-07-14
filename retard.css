@@ -184,15 +184,7 @@ body {
 
 /* Testing */
 
-@media (max-width: 768px) {
-  #mainHeader {
-    font-size: 8vw;
-  }
-  button {
-    padding: 2vw 4vw;
-    font-size: 2vw;
-  }
-}
+
 /** this is the scrolling list*/
 .news-ticker {
 
