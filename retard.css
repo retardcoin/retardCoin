@@ -383,7 +383,7 @@ button {
   width: 40%;
 /*   height: auto; */
   animation: slideInCenter 1s forwards;
-  position: absolute;
+  position: relative;
   left: 70%;
   /* Center horizontally */
   transform: translate(-50%, 0);
