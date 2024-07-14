@@ -7,7 +7,6 @@ body {
 }
 
 #first {
-  border: 1px solid black;
   flex-direction: column;
   min-height: 100vh;
   display: flex; 
@@ -282,6 +281,7 @@ p {
   position: relative;
   /* Necessary to apply z-index */
   z-index: 9999;
+  text-align: center;
   text-shadow: 0.4rem 0.4rem 0 rgb(250, 196, 115, );
   font-family: 'Russo One', sans-serif;
   flex-wrap: wrap; /*testing*/
@@ -293,15 +293,13 @@ p {
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
-
 }
-
 button {
   padding: 1vw 3vw;
   border-radius: 1rem;
   color: rgb(255, 255, 255);
   font-family: 'Russo One', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   background-color: #f90;
   z-index: 9999;
   border: none;
