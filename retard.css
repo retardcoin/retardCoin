@@ -424,7 +424,7 @@ button {
 
 #finalpic {
   width: 20%;
-  height: auto;
+  height: 25vw;
   animation: slideInBottom 1s forwards;
   position: absolute;
   left: 30%;
