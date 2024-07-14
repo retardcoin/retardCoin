@@ -276,10 +276,11 @@ p {
 #mainHeader {
 
   text-align: center;
+  display: flex; /*testing*/
   font-size: 2rem;
   margin-top: 20%;
   /*check this*/
-  position: fixed; /* testing */
+  position: relative;
   /* Necessary to apply z-index */
   z-index: 9999;
   text-shadow: 0.4rem 0.4rem 0 rgba(250, 196, 115, .5);
