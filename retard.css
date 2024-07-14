@@ -409,8 +409,17 @@ button {
   bottom: -100%;
   /* Start off-screen at the bottom */
 }
-
 #applePic1 {
+  width: 15%;
+  height: auto;
+  animation: slideInRight 1s forwards;
+  position: absolute;
+  right: 0;
+  top: 50%; /* Adjusted from bottom to top */
+  transform: translateY(-50%);
+}
+
+/* #applePic1 {
   width: 15%;
   height: auto;
   animation: slideInRight 1s forwards;
@@ -420,7 +429,7 @@ button {
   bottom: 70%;
   /* Center vertically */
   transform: translateY(50%);
-}
+} */
 
 #finalpic {
   width: 20%;
