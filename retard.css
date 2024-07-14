@@ -387,8 +387,7 @@ button {
   left: 70%;
   /* Center horizontally */
   transform: translate(-50%, 0);
-  top: 10%
-/*   top: calc(100%-30%); */
+  bottom: -100%
   /* Start off-screen at the bottom */
 }
 
