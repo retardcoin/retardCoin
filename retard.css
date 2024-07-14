@@ -279,10 +279,10 @@ p {
   font-size: 2rem;
   margin-top: 20%;
   /*check this*/
-  position: relative;
+  position: fixed; /* testing */
   /* Necessary to apply z-index */
   z-index: 9999;
-  text-shadow: 0.4rem 0.4rem 0 rgb(250, 196, 115);
+  text-shadow: 0.4rem 0.4rem 0 rgba(250, 196, 115, .5);
   font-family: 'Russo One', sans-serif;
   flex-wrap: wrap;
 }
