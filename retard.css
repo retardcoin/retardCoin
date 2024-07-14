@@ -7,7 +7,6 @@ body {
 }
 
 #first {
-  border: 1px solid black;
   flex-direction: column;
   min-height: 100vh;
   display: flex; 
@@ -411,7 +410,7 @@ button {
   left: 30%;
   /* Center horizontally */
   transform: translateX(-50%);
-  top: -100%;
+  top: calc(100%-20%);
   /* Start off-screen at the bottom */
 }
 
