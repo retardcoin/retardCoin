@@ -278,9 +278,9 @@ p {
 
   text-align: center;
   display: flex; /*testing*/
-  font-size: 6vw
+  font-size: 8vw
   
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   /*check this*/
   position: relative;
   /* Necessary to apply z-index */
@@ -422,7 +422,7 @@ button {
 }
 
 #finalpic {
-  width: 30%;
+  width: 20%;
   height: auto;
   animation: slideInBottom 1s forwards;
   position: absolute;
