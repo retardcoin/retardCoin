@@ -412,8 +412,7 @@ button {
   left: 30%;
   /* Center horizontally */
   transform: translateX(-50%);
-/*   top: -50%;  */
-  top: 5%;
+  top: -50%; 
   /* Start off-screen at the bottom */
 }
 
