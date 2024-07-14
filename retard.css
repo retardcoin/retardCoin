@@ -194,6 +194,7 @@ body {
   }
   
   button {
+  
     padding: 1.2vw 3vw; /* Adjust padding for tablets in landscape */
     font-size: 1.5vw; /* Adjust font size for tablets in landscape */
   }
@@ -286,7 +287,7 @@ p {
 }
 
 #mainHeader {
-/*   display: flex; /*testing*/ */
+  display: flex; /*testing*/
   font-size: 6vw;
   margin: 2rem 0;
   /*check this*/
