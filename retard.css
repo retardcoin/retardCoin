@@ -14,7 +14,6 @@ body {
   position: relative;
   justify-content: center;
   align-items: center; /* remove if it doesnt work*/
-  overflow: hidden;
 }
 #page1 {
   display: none;
@@ -380,27 +379,27 @@ button {
 }
 
 #frontPic {
-  width: 40%;
-/*   height: auto; */
+  width: 20%;
+  height: auto;
   animation: slideInCenter 1s forwards;
-  position: relative;
-  left: 60%;
+  position: absolute;
+  left: 70%;
   /* Center horizontally */
-  transform: translate(-50%);
-  bottom: -100%
+  transform: translateX(-50%);
+  top: calc(100%-30%);
   /* Start off-screen at the bottom */
 }
 
 #applePic1 {
   width: 13%;
-/*   height: auto; */
+  height: auto;
   animation: slideInRight 1s forwards;
   position: absolute;
   right: -100%;
   /* Start off-screen to the right */
   bottom: 50%;
   /* Center vertically */
-  transform: translateY(-50%);
+  transform: translateY(50%);
 }
 
 #finalpic {
@@ -411,7 +410,7 @@ button {
   left: 30%;
   /* Center horizontally */
   transform: translateX(-50%);
-  top: -100%; 
+  top: -50%;
   /* Start off-screen at the bottom */
 }
 
