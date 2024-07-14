@@ -5,7 +5,9 @@ body {
    font-family: 'Architects Daughter', sans-serif;
    overflow: hidden;
 }
-
+#first{
+   overflow: hidden;
+}
 
 #page1 {
 display: none;
