@@ -386,7 +386,7 @@ button {
   position: relative;
   left: 60%;
   /* Center horizontally */
-  transform: translateX(-50%, 0);
+  transform: translate(-50%);
   bottom: -100%
   /* Start off-screen at the bottom */
 }
