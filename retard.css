@@ -3,14 +3,14 @@ body {
    margin: 0;
    padding: 0;
    font-family: 'Architects Daughter', sans-serif;
-
+   overflow: hidden;
 }
 .image-container{
    overflow: hidden;
 }
 
 #page1 {
-display: none;
+   display: none;
    background-image: url("https://lh3.googleusercontent.com/pw/AP1GczO8hvLLQwFZxk4IaXsGWwmKFBwMGD9PWrjelSOGG1ky140iBJKFFDVUkxohX1_13T89xWZLKzG5cPgU_cl2vo45WPzMbiT2fVLK4Mjj_Vy_kioCVQ=w2400");
    background-attachment: fixed;
    /**  background-size: contain;*/
