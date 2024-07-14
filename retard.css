@@ -386,7 +386,7 @@ button {
   left: 70%;
   /* Center horizontally */
   transform: translateX(-50%);
-  top: calc(100%-30%);
+  bottom: -100%;
   /* Start off-screen at the bottom */
 }
 
@@ -410,7 +410,7 @@ button {
   left: 30%;
   /* Center horizontally */
   transform: translateX(-50%);
-  top: -50%;
+  top: -100%;
   /* Start off-screen at the bottom */
 }
 
