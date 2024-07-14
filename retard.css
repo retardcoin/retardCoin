@@ -15,6 +15,7 @@ body {
   justify-content: center;
   align-items: center; /* remove if it doesnt work*/
 }
+
 #page1 {
   display: none;
   background-image: url("https://lh3.googleusercontent.com/pw/AP1GczO8hvLLQwFZxk4IaXsGWwmKFBwMGD9PWrjelSOGG1ky140iBJKFFDVUkxohX1_13T89xWZLKzG5cPgU_cl2vo45WPzMbiT2fVLK4Mjj_Vy_kioCVQ=w2400");
@@ -280,7 +281,7 @@ p {
   display: flex; /*testing*/
   font-size: 8vw;
   
-  margin: 1.5rem 0;
+  margin: 1.5rem 10rem;
   /*check this*/
   position: relative;
   /* Necessary to apply z-index */
@@ -399,7 +400,7 @@ button {
 
 #frontPic {
   width: 20%;
-  height: auto;
+  height: 25vw;
   animation: slideInCenter 1s forwards;
   position: absolute;
   left: 70%;
@@ -410,7 +411,7 @@ button {
 }
 
 #applePic1 {
-  width: 13%;
+  width: 15%;
   height: auto;
   animation: slideInRight 1s forwards;
   position: absolute;
