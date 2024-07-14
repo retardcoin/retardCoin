@@ -7,13 +7,16 @@ body {
 }
 
 #first {
+  min-height: calc(100vh - 3rem); /* Adjust the height to avoid the address bar */
+  padding-top: 3rem; /* Add padding to avoid the address bar */
   flex-direction: column;
-  min-height: 100vh;
+/*   min-height: 100vh;  */
+  text-align: center;
   display: flex; 
 /*   padding: 1em; */
   position: relative;
   justify-content: center;
-  align-items: center; /* remove if it doesnt work*/
+  align-items: center; /* remove if it doesnt work*/ 
 }
 #page1 {
   display: none;
@@ -140,10 +143,9 @@ body {
   width: 59%;
   height: auto;
 }
-
-@media (max-width: 480px) {
+@media (max-width: 480px) and (orientation: portrait) {
   #mainHeader {
-    font-size: 10vw; /* Adjust font size for smaller screens */
+    font-size: 10vw; /* Larger font size for phone portrait mode */
   }
   
   button {
@@ -186,6 +188,16 @@ body {
   }
 }
 
+@media (max-width: 1024px) {
+  #mainHeader {
+    font-size: 6vw; /* Adjust font size for tablets in landscape */
+  }
+  
+  button {
+    padding: 1.2vw 3vw; /* Adjust padding for tablets in landscape */
+    font-size: 1.5vw; /* Adjust font size for tablets in landscape */
+  }
+}
 /** this is the scrolling list*/
 .news-ticker {
 
@@ -253,12 +265,12 @@ body {
 }
 #img1,
 #img4 {
-  width: 30%;
+  width: 100%; /*change it back to 30 and 23*/
   height: auto;
 }
 #img2,
 #img3 {
-  width: 23%;
+  width: 100%;
   height: auto;
 }
 h1 {
@@ -281,8 +293,7 @@ p {
   position: relative;
   /* Necessary to apply z-index */
   z-index: 9999;
-  text-align: center;
-  text-shadow: 0.4rem 0.4rem 0 rgb(250, 196, 115, );
+  text-shadow: 0.4rem 0.4rem 0 rgb(250, 196, 115 );
   font-family: 'Russo One', sans-serif;
   flex-wrap: wrap; /*testing*/
 }
@@ -295,11 +306,11 @@ p {
   flex-wrap: wrap;
 }
 button {
-  padding: 1vw 3vw;
+  padding: 4vw 8vw;/* Larger padding for phone portrait mode */
   border-radius: 1rem;
   color: rgb(255, 255, 255);
   font-family: 'Russo One', sans-serif;
-  font-size: 1.7vw;
+  font-size: 3vw;/* Larger font size for phone portrait mode */
   background-color: #f90;
   z-index: 9999;
   border: none;
