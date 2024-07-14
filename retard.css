@@ -7,16 +7,14 @@ body {
 }
 
 #first {
-/*   min-height: calc(100vh - 5rem); /* Adjust the height to avoid the address bar */
-  padding-bottom: 3rem; /* Add padding to avoid the address bar */ */
+  border: 1px solid black;
   flex-direction: column;
-  min-height: 100vh; 
-  text-align: center;
+  min-height: 100vh;
   display: flex; 
 /*   padding: 1em; */
   position: relative;
   justify-content: center;
-  align-items: center; /* remove if it doesnt work*/ 
+  align-items: center; /* remove if it doesnt work*/
 }
 #page1 {
   display: none;
@@ -143,25 +141,9 @@ body {
   width: 59%;
   height: auto;
 }
-@media (max-width: 480px) and (orientation: portrait) {
-  #mainHeader {
-    font-size: 10vw; /* Larger font size for phone portrait mode */
-  }
-  
-  button {
-    padding: 4vw 8vw; /* Adjust padding for smaller screens */
-    font-size: 3vw; /* Adjust font size for smaller screens */
-  }
-}
 /* New media query to handle smaller screens */
 @media (max-width: 768px) {
-  #mainHeader{
-    font-size: 8vw;
-  }
-   button {
-    padding: 2vw 4vw; /* Adjust padding for smaller screens */
-    font-size: 2vw; /* Adjust font size for smaller screens */
-  }
+  
   .image2container,
   .image3con {
     flex-direction: column;
@@ -188,17 +170,6 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
-  #mainHeader {
-    font-size: 7vw; /* Adjust font size for tablets in landscape */
-  }
-  
-  button {
-  
-    padding: 1.2vw 3vw; /* Adjust padding for tablets in landscape */
-    font-size: 1.5vw; /* Adjust font size for tablets in landscape */
-  }
-}
 /** this is the scrolling list*/
 .news-ticker {
 
@@ -210,10 +181,7 @@ body {
   /* Optional: Background color */
   box-shadow: 1.1rem 1.1rem 2.2rem rgba(0, 0, 0, 0.2);
 }
- #first {
-    min-height: calc(100vh - 3rem); /* Adjust the height to avoid the address bar */
-    padding-top: 3rem; /* Add padding to avoid the address bar */
-  }
+
 .ticker-container {
   display: inline-block;
   /* Ensure elements stay in a single line */
@@ -269,12 +237,12 @@ body {
 }
 #img1,
 #img4 {
-  width: 100%; /*change it back to 30 and 23*/
+  width: 30%;
   height: auto;
 }
 #img2,
 #img3 {
-  width: 100%;
+  width: 23%;
   height: auto;
 }
 h1 {
@@ -290,32 +258,35 @@ p {
 }
 
 #mainHeader {
+
+/*   text-align: center; */
   display: flex; /*testing*/
-  font-size: 6vw;
+  font-size: 3.5rem;
   margin: 2rem 0;
   /*check this*/
   position: relative;
   /* Necessary to apply z-index */
   z-index: 9999;
-  text-shadow: 0.4rem 0.4rem 0 rgb(250, 196, 115 );
+  text-shadow: 0.4rem 0.4rem 0 rgb(250, 196, 115, );
   font-family: 'Russo One', sans-serif;
-  text-align: cemter;
-  
+  flex-wrap: wrap; /*testing*/
 }
 
 #buttons {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   display: flex;
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+
 }
+
 button {
-  padding: 1vw 3vw;/* Larger padding for phone portrait mode */
+  padding: .6rem 1.5rem;
   border-radius: 1rem;
   color: rgb(255, 255, 255);
   font-family: 'Russo One', sans-serif;
-  font-size: 1.5vw;/* Larger font size for phone portrait mode */
+  font-size: 1rem;
   background-color: #f90;
   z-index: 9999;
   border: none;
