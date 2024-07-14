@@ -281,10 +281,10 @@ p {
 
 button {
    padding: 5px 27px;
-   border-radius: 15px;
+   border-radius: 1rem;
    color: rgb(255, 255, 255);
    font-family: 'Russo One', sans-serif;
-   font-size: 35px;
+   font-size: 1rem;
    background-color: #f90;
    z-index: 9999;
    border: none;
