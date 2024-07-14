@@ -416,7 +416,7 @@ button {
   position: absolute;
   right: -100%;
   /* Start off-screen to the right */
-  bottom: 50%;
+  bottom: 70%;
   /* Center vertically */
   transform: translateY(50%);
 }
