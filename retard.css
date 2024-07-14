@@ -288,7 +288,10 @@ p {
 
 #first {
   text-align: center;
+  display: flex; 
   padding: 1em;
+  justify-content: center;
+  align-items: center; /* remove if it doesnt work*/
 }
 
 #buttons {
