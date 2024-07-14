@@ -143,7 +143,7 @@ body {
 /* New media query to handle smaller screens */
 @media (max-width: 768px) {
  #mainheader{
-   font-size: 8vw;
+   font-size: 12vw;
  }
   .image2container,
   .image3con {
