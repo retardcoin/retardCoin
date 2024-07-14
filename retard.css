@@ -10,7 +10,7 @@ body {
 /*   min-height: calc(100vh - 5rem); /* Adjust the height to avoid the address bar */
   padding-bottom: 3rem; /* Add padding to avoid the address bar */ */
   flex-direction: column;
-/*  min-height: 100vh;  */
+  min-height: 100vh; 
   text-align: center;
   display: flex; 
 /*   padding: 1em; */
