@@ -3,31 +3,23 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Architects Daughter', sans-serif;
-
+  overflow: hidden /*testing*/
 }
 
 #first {
   width: 100%;
-  overflow: hidden;
-  /* Hide overflow content */
-  text-align: center;
-  /* Center text and buttons */
+  display: flex; 
   padding: 1em;
-}
-
-.image-container {
   overflow: hidden;
+  justify-content: center;
+  align-items: center; /* remove if it doesnt work*/
 }
-
-
 #page1 {
   display: none;
   background-image: url("https://lh3.googleusercontent.com/pw/AP1GczO8hvLLQwFZxk4IaXsGWwmKFBwMGD9PWrjelSOGG1ky140iBJKFFDVUkxohX1_13T89xWZLKzG5cPgU_cl2vo45WPzMbiT2fVLK4Mjj_Vy_kioCVQ=w2400");
   background-attachment: fixed;
   /**  background-size: contain;*/
-
 }
-
 .responsive-image {
   width: 80%;
   /* Adjust percentage as needed */
@@ -40,7 +32,6 @@ body {
 .body {
   background-color: #f3f1f1;
 }
-
 #topBar {
   position: fixed;
   /* Make the box fixed */
@@ -232,10 +223,7 @@ body {
   background-attachment: fixed;
   padding: 10%;
   /* delee this and flex wrap  */
-
 }
-
-
 .box {
   flex: 0 0 30%;
   background-color: white;
@@ -244,30 +232,24 @@ body {
   transition: all 0.5s ease;
   margin: 1rem;
   padding: 2rem;
-
 }
-
 #img1,
 #img4 {
   width: 30%;
   height: auto;
 }
-
 #img2,
 #img3 {
   width: 23%;
   height: auto;
 }
-
 h1 {
   font-family: 'Russo One', sans-serif;
   color: #f90;
   text-shadow: 0.25rem 0.25rem 0 rgb(250, 196, 115);
   font-size: 2rem;
 }
-
 p {
-
   font-family: 'Architects Daughter', sans-serif;
   font-size: 2rem;
   color: #807a7a;
@@ -286,15 +268,6 @@ p {
   text-shadow: 0.4rem 0.4rem 0 rgba(250, 196, 115, .5);
   font-family: 'Russo One', sans-serif;
   flex-wrap: wrap; /*testing*/
-  padding: 1rem; /*testing*/
-}
-
-#first {
-  text-align: center;
-  display: flex; 
-  padding: 1em;
-  justify-content: center;
-  align-items: center; /* remove if it doesnt work*/
 }
 
 #buttons {
