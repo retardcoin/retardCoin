@@ -143,7 +143,7 @@ body {
 /* New media query to handle smaller screens */
 @media (max-width: 768px) {
  #mainheader{
-   font-size: 12vw;
+   font-size: 20vw;
  }
   .image2container,
   .image3con {
@@ -422,7 +422,7 @@ button {
 }
 
 #finalpic {
-  width: 20%;
+  width: 30%;
   height: auto;
   animation: slideInBottom 1s forwards;
   position: absolute;
