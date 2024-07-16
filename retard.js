@@ -74,5 +74,3 @@ function functionEx(){
     
             // Initial check in case elements are already in viewport on page load
             handleScroll();
-
-
